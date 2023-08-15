@@ -1,0 +1,52 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.sidenav-content {
+  
+  height: 100%;
+ 
+  mat-toolbar{
+    
+  }
+  .router-container{
+    padding-left: 56px;
+    padding-top: 16px;
+  }
+}
+
+.sidenav {
+  padding: 0 20px;
+  
+  width: 250px;
+  .logo{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    height: 64px;
+    display: flex;
+    align-items: center;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+    
+    li{
+      padding:10px 0 ;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      &:hover{
+        background-color: rgba(0,0,0,0.1);
+      }
+      mat-icon{
+        margin-right: 15px;
+      }
+    }
+  }
+  
+}
